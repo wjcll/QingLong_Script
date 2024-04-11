@@ -24,7 +24,7 @@ def get_user_agent():
     tmp2 = random.randrange(5200, 5500)
     tmp3 = random.randrange(90, 180)
     tmp_version = str(tmp1) + ".0." + str(tmp2) + "." + str(tmp3)
-    ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/' + tmp_version + ' Safari/537.36'
+    ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/' + tmp_version + ' Safari/537.36'
     print(ua)
     return ua
 
